@@ -1,0 +1,142 @@
+.nation-champion{
+    position: absolute;
+    left: 310px;
+    top: 350px;
+    background-color: rgb(27, 26, 26);
+    width: 20%;
+    height:30% ;
+    
+    justify-content: center;
+    text-align: center;
+    transform: skewX(-10deg);
+}
+.text-national{
+    position: absolute;
+    left: 570px;
+    top: 320px;
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 500px;
+    height: 50px;
+    /* justify-content: center; */
+    padding-top: 20px;
+    text-align: center;
+    transform: skewX(-15deg);  
+}
+.score-card{
+    position: absolute;
+    display: flex;
+    left: 590px;
+    top: 440px;
+    height: 50px;
+    width: 700px;
+    background-color: black;
+    color: white;
+    transform: skewX(-15deg); 
+    padding: 10px;
+}
+
+.team1{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    color: white;
+    width: 100%;
+}
+.team2{
+    background-color: rgb(27, 26, 26); 
+    display: flex;
+    color: white;
+    width: 100%;
+}
+.title1{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.title2{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.time-quarter{
+    position: absolute;
+    border:2px solid white;
+    color: white;
+    left: 850px;
+    top: 550px;
+    font-weight: bold;
+    font-size: 30px;
+    transform: skewX(-15deg);
+    background-color: rgb(27, 26, 26); 
+    padding: 10px; 
+}
+.united{
+    position: absolute;
+    
+    color: white;
+    left: 200px;
+    top: 690px;
+    font-weight: bold;
+    font-size: 20px;
+    transform: skewX(-15deg);
+    background-color: black; 
+    padding: 10px
+}
+.transparent-div1{
+    position: absolute;
+    background-color: orange;
+    opacity: 0.5;
+    width: 60px;
+    height: 60px;
+    left: 304px;
+    top: 325px;
+    transform: skewX(-15deg);
+}
+.transparent-div2{
+    position: absolute;
+    background-color:orangered;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    left: 210px;
+    top: 355px;
+    transform: skewX(-15deg);
+}
+.transparent-div3{
+    position: absolute;
+    background-color:orangered;
+    
+    width: 20px;
+    height: 20px;
+    left: 290px;
+    top: 285px;
+    transform: skewX(-15deg);
+
+}
+.transparent-div4{
+    position: absolute;
+    background-color:orangered;
+    
+    width: 30px;
+    height: 30px;
+    left: 220px;
+    top: 420px;
+    transform: skewX(-15deg);
+
+}
+.transparent-div5{
+    position: absolute;
+    background-color:orangered;
+    
+    width: 10px;
+    height: 10px;
+    left: 193px;
+    top: 456px;
+    transform: skewX(-15deg);
+
+}
+.scoreN{
+    font-size: 40px;
+}
